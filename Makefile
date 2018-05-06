@@ -1,9 +1,9 @@
 CC = g++
-CFLAGS = -c -g -Wall `pkg-config --cflags opencv`
-LDFLAGS = `pkg-config --libs opencv` -lX11
-SOURCES = main.cpp HW_camera.cpp IP_ledge_detect.cpp CS_time.cpp CT_window_manager.cpp
+CFLAGS = -c -g -Wall `pkg-config --cflags opencv` -std=c++11
+LDFLAGS = `pkg-config --libs opencv` -lX11 -lpthread -ldl
+SOURCES = main.cpp HW_camera.cpp CS_time.cpp CT_window_manager.cpp FCEUX.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
-EXECUTABLE = BeagleVision
+EXECUTABLE = MegaBot 
 
 all: $(SOURCES) $(EXECUTABLE)
 

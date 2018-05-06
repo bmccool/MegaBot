@@ -7,6 +7,10 @@
 
 #include "CT_window_manager.hpp"
 
+
+#define LOGURU_WITH_STREAMS 1
+#include "loguru.hpp"
+
 // The Keycode to be sent.
 // A full list of available codes can be found in /usr/inclucde/X11/keysymdef.h
 
@@ -74,34 +78,45 @@ char *name(Display *disp, Window window)
 
 unsigned long int get_nes_window(void)
 {
+    LOG_SCOPE_FUNCTION(INFO);
+
     Display *disp;
     Window *wlist;
     unsigned long len;
     char *wname;
-    
+    bool found = false;
+
+    LOG_S(INFO) << "Opening display"; 
     disp = XOpenDisplay(NULL);
     wlist = (Window*)list(disp, &len);
 
-
+    LOG_S(INFO) << "Setting error handler";
     XSetErrorHandler( catcher ); // <-- inserted to set error handler
 
     int i;
     unsigned long int nes_index;
+    LOG_S(INFO) << "Looking for handler";
     for(i = 0; i < (int)len; i++){
-                    wname = name(disp, wlist[i]);
-                    if (wname[0] == 'F')
-                    {
-                        nes_index = i;
-                    }
-                    free(wname);
+        VLOG_SCOPE_F(1, "Iteration %d", i);
+        wname = name(disp, wlist[i]);
+        LOG_S(INFO) << "wname: " << wname;
+        if (wname[0] == 'F')
+        {
+            LOG_S(INFO) << "Found handler: " << wname << " index: " << i;
+            nes_index = i;
+            found = true;
+        }
+        free(wname);
     }
-    //printf("Nes index is %d, and window is %x\n", nes_index, (int)wlist[nes_index]);
+    LOG_S(INFO) << "Checked all windows, window was found: " << found;
 
     XSetErrorHandler( NULL ); // <-- restore the default error handler
-    return wlist[nes_index];
+    if (found == true)
+        return wlist[nes_index];
+    return 0; // TODO Need better return strategy here.  Maybe return handle by ref and an error code by val
 }
 
-int send_key(char* keycode, key_action_t action, unsigned long int window_id)
+int send_key(const char* keycode, key_action_t action, unsigned long int window_id)
 {
     char buffer[50];
     

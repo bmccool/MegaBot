@@ -66,7 +66,7 @@ double HW_camera_get_height(cv::VideoCapture *capture)
 }
 
 /******************************************************************************
-* Function Name: HW_camera_get_height
+* Function Name: HW_camera_get_width
 * 
 *
 ******************************************************************************/
