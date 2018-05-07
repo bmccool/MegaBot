@@ -1,0 +1,11 @@
+digraph "loguru::stream_print"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node144 [label="loguru::stream_print",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node144 -> Node145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="loguru::format_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespaceloguru.html#a8d5900eb68be9d97a2e8dd4f9299f09a"];
+  Node144 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="loguru::EcEntryData\l::print_value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classloguru_1_1_ec_entry_data.html#a4979a8172502122c764e8146c51e01a9"];
+}

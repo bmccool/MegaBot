@@ -1,0 +1,11 @@
+digraph "loguru::Text::operator="
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="loguru::Text::operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="loguru::Text::Text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classloguru_1_1_text.html#a2b1e4ea540b597a356dfa4a507bc53d9"];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="loguru::LogScopeRAII\l::LogScopeRAII",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classloguru_1_1_log_scope_r_a_i_i.html#a9bf841a74e103e66b3caf6996fad9c81"];
+}

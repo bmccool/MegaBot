@@ -1,0 +1,14 @@
+digraph "get_nes_window"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="get_nes_window",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="list",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_c_t__window__manager_8cpp.html#af724a7f4ea1a59659c1b9b186e6910de"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="catcher",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_c_t__window__manager_8cpp.html#acbf856e2af7532854e2e8d72379c03ca"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_c_t__window__manager_8cpp.html#a7129ccf57dd13c73c71331e6d0a71ace"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
