@@ -16,10 +16,8 @@ edit: To facilitate debugging and faster development, the project is currently b
 ### Helpful Links ###
 [Notebook](https://onedrive.live.com/redir?resid=39227574E31A4574!675&authkey=!AOqkbbqrZhCvqdE&ithint=onenote%2c)
 
-[Trello](https://trello.com/b/7KO2B9iP/beaglevision)
+[Trello](https://trello.com/b/svMMWGOq/megabot)
 
-[Doxygen](http://bmccool.bitbucket.org/BeagleVision/index.html)
+[Doxygen](https://bmccool.github.io/MegaBot/index.html)
 
-[Bitbucket](https://bitbucket.org/bmccool/beaglevision)
-
-[Doxygen errors](http://bmccool.bitbucket.org/BeagleVision/error_logfile.txt)
+[Doxygen errors](https://bmccool.github.io/MegaBot/error_logfile.txt)
