@@ -1,0 +1,6 @@
+<map id="draw_box_on_foreground" name="draw_box_on_foreground">
+<area shape="rect" id="node2" href="$_i_p__ledge__detect_8cpp.html#a095940e0661c2f902fb5b8722a73e299" title="point_is_close_to_box" alt="" coords="236,5,397,32"/>
+<area shape="rect" id="node3" href="$_i_p__ledge__detect_8cpp.html#a68c251e34f0cad66c7cb080897cdddeb" title="distance_between" alt="" coords="445,31,583,57"/>
+<area shape="rect" id="node4" href="$_i_p__ledge__detect_8cpp.html#a0ed668df78c8f07b3ecb31ad25c5b9b6" title="expand_box" alt="" coords="267,107,366,133"/>
+<area shape="rect" id="node5" href="$_i_p__ledge__detect_8cpp.html#aeaddda5f0a379bec658a9c0169424762" title="draw_boxes" alt="" coords="268,157,365,184"/>
+</map>

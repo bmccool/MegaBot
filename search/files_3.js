@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ip_5fledge_5fdetect_2ecpp',['IP_ledge_detect.cpp',['../_i_p__ledge__detect_8cpp.html',1,'']]],
-  ['ip_5fledge_5fdetect_2ehpp',['IP_ledge_detect.hpp',['../_i_p__ledge__detect_8hpp.html',1,'']]]
+  ['hw_5fcamera_2ecpp',['HW_camera.cpp',['../_h_w__camera_8cpp.html',1,'']]],
+  ['hw_5fcamera_2ehpp',['HW_camera.hpp',['../_h_w__camera_8hpp.html',1,'']]]
 ];

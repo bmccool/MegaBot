@@ -9,5 +9,6 @@ var searchData=
   ['are_5fcolumns_5fequalish',['are_columns_equalish',['../_i_p__ledge__detect_8cpp.html#a681083b48d41a929ce9dedec71e39e6f',1,'IP_ledge_detect.cpp']]],
   ['arguments',['arguments',['../namespaceloguru.html#a19a927bb236f23a8a277566b294891f7',1,'loguru']]],
   ['argv0_5ffilename',['argv0_filename',['../namespaceloguru.html#a0a6b7b4b577f5950e0dd479315c2a5a0',1,'loguru']]],
-  ['assert',['assert',['../loguru_8hpp.html#ac88d9686b15e03eb62e2a66109845f86',1,'loguru.hpp']]]
+  ['assert',['assert',['../loguru_8hpp.html#ac88d9686b15e03eb62e2a66109845f86',1,'loguru.hpp']]],
+  ['a_20simple_20readme_20for_20gh_2dpages',['A simple README for gh-pages',['../md__docs_html__r_e_a_d_m_e.html',1,'']]]
 ];

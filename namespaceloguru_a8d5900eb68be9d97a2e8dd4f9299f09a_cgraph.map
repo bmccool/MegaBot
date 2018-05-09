@@ -1,0 +1,25 @@
+<map id="loguru::format_value" name="loguru::format_value">
+<area shape="rect" id="node2" href="$namespaceloguru.html#a41e1649a01dfe5abd07436fb051869b0" title="loguru::textprintf" alt="" coords="240,5,368,32"/>
+<area shape="rect" id="node3" href="$namespaceloguru.html#a8faa49cb82735b2de93f21faaadfe3b0" title="loguru::set_thread_name" alt="" coords="213,56,395,83"/>
+<area shape="rect" id="node4" href="$_c_t__window__manager_8cpp.html#a7129ccf57dd13c73c71331e6d0a71ace" title="name" alt="" coords="275,107,333,133"/>
+<area shape="rect" id="node6" href="$namespaceloguru.html#abc9b37abffa9fd6730705870139931ae" title="loguru::get_thread_name" alt="" coords="212,157,396,184"/>
+<area shape="rect" id="node7" href="$namespaceloguru.html#af3d92aae81b2cd230a227ba27df485a8" title="loguru::stacktrace" alt="" coords="235,208,373,235"/>
+<area shape="rect" id="node8" href="$namespaceloguru.html#a0aa47c1c9267722d4d45e8625c2cc683" title="loguru::add_stack_cleanup" alt="" coords="208,259,400,285"/>
+<area shape="rect" id="node9" href="$namespaceloguru.html#a8e5b8f2ed9a6337718fc2f304dd4f899" title="loguru::demangle" alt="" coords="237,309,371,336"/>
+<area shape="rect" id="node10" href="$namespaceloguru.html#a825c2a489fbddadba9efc287f0158462" title="loguru::terminal_has\l_color" alt="" coords="227,361,381,402"/>
+<area shape="rect" id="node11" href="$namespaceloguru.html#aecf4a4212479d3e0110372c3e2d313e3" title="loguru::terminal_black" alt="" coords="223,427,385,453"/>
+<area shape="rect" id="node12" href="$namespaceloguru.html#a03b277f232fbba41ddf661a31f4a1457" title="loguru::terminal_red" alt="" coords="229,477,379,504"/>
+<area shape="rect" id="node13" href="$namespaceloguru.html#ad228a5f6bf461f77b2e8f81391182e3f" title="loguru::terminal_green" alt="" coords="221,528,387,555"/>
+<area shape="rect" id="node14" href="$namespaceloguru.html#a68d662ad6885c2560702d890d43f1609" title="loguru::terminal_yellow" alt="" coords="220,579,388,605"/>
+<area shape="rect" id="node15" href="$namespaceloguru.html#a574b83862ef88a3c54eddbe9fed0dd09" title="loguru::terminal_blue" alt="" coords="225,629,383,656"/>
+<area shape="rect" id="node16" href="$namespaceloguru.html#a7ccd9503d4ddd16e96edcc86306882e4" title="loguru::terminal_purple" alt="" coords="219,680,389,707"/>
+<area shape="rect" id="node17" href="$namespaceloguru.html#a599ca1e80f72c87f52add5bdbcc04434" title="loguru::terminal_cyan" alt="" coords="224,731,384,757"/>
+<area shape="rect" id="node18" href="$namespaceloguru.html#aa5399be5a34dfc58c363dbc41ef575ef" title="loguru::terminal_light_gray" alt="" coords="208,781,400,808"/>
+<area shape="rect" id="node19" href="$namespaceloguru.html#acc2f896f22b3f3ed7b8a86ead0052acf" title="loguru::terminal_light_red" alt="" coords="211,832,397,859"/>
+<area shape="rect" id="node20" href="$namespaceloguru.html#acfae1a394b2224b051842f007c8424f0" title="loguru::terminal_white" alt="" coords="223,883,385,909"/>
+<area shape="rect" id="node21" href="$namespaceloguru.html#a206bcddde3e3e91def369ff5e0481810" title="loguru::terminal_bold" alt="" coords="225,933,383,960"/>
+<area shape="rect" id="node22" href="$namespaceloguru.html#aaf1baf90d14f2c262eda74980386c65c" title="loguru::terminal_underline" alt="" coords="209,984,399,1011"/>
+<area shape="rect" id="node23" href="$namespaceloguru.html#a8017b2c42ab194d09a92723ec1dfc41e" title="loguru::terminal_reset" alt="" coords="223,1035,385,1061"/>
+<area shape="rect" id="node24" href="$namespaceloguru.html#aff2c58506b259a78145d843c54f6c039" title="loguru::stream_print" alt="" coords="228,1085,380,1112"/>
+<area shape="rect" id="node5" href="$_c_t__window__manager_8cpp.html#af724a7f4ea1a59659c1b9b186e6910de" title="list" alt="" coords="448,107,488,133"/>
+</map>

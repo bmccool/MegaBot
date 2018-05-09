@@ -25,5 +25,6 @@ var searchData=
   ['draw_5fpoints',['draw_points',['../_i_p__ledge__detect_8cpp.html#ab71395721241cbb6f6af389b4aaa966f',1,'draw_points(points_t points, Mat &amp;input_matrix):&#160;IP_ledge_detect.cpp'],['../_i_p__ledge__detect_8hpp.html#ab7f4d2cf200e3d96d7848dac8bda5b71',1,'draw_points(points_t points, cv::Mat &amp;input_mat):&#160;IP_ledge_detect.hpp']]],
   ['draw_5fvlog_5ff',['DRAW_VLOG_F',['../loguru_8hpp.html#a0afb4270679ab39dbc3ea83172612461',1,'loguru.hpp']]],
   ['dvlog_5ff',['DVLOG_F',['../loguru_8hpp.html#aacf8f78c2e64e0062d3812af254f0268',1,'loguru.hpp']]],
-  ['dvlog_5fif_5ff',['DVLOG_IF_F',['../loguru_8hpp.html#aabe30e51d4d09803678edcc08c079750',1,'loguru.hpp']]]
+  ['dvlog_5fif_5ff',['DVLOG_IF_F',['../loguru_8hpp.html#aabe30e51d4d09803678edcc08c079750',1,'loguru.hpp']]],
+  ['readme_2emd',['README.md',['../_docs_2html_2_r_e_a_d_m_e_8md.html',1,'']]]
 ];
